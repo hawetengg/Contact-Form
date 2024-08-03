@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple contact form built with React and `react-hook-form` for managing form state and validation. It includes a DevTool from `@hookform/devtools` for debugging form state.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Form validation for username, email, and message fields.
+- Custom error messages for required fields and email pattern validation.
+- Alert notification on successful form submission.
+- Responsive design with custom styling.
+## Screenshots
 
-## Expanding the ESLint configuration
+### Main Interface
+![Main Interface](src/Screenshots/Main-Interface.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Succesful Submission
+![Succesful Submission](src/Screenshots/SuccesfulSubmission.png)
 
-- Configure the top-level `parserOptions` property like this:
+### Invalid Email Format
+![Invalid Email Format](src/Screenshots/InvalidFormat.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Empty Username
+![Empty Username](src/Screenshots/Username.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Empty Email
+![Empty Email](src/Screenshots/Email)
+
+### Empty Message
+![Empty Message](src/Screenshots/Message.png)
+
+
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repository.git
+   
+2. Navigate to the project directory:
+   ```sh
+   cd your-repository
+
+3. Install the dependencies:
+   ```sh
+   npm install
