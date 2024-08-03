@@ -23,7 +23,7 @@ This is a simple contact form built with React and `react-hook-form` for managin
 ![Empty Username](src/Screenshots/Username.png)
 
 ### Empty Email
-![Empty Email](src/Screenshots/Email)
+![Empty Email](src/Screenshots/Email.png)
 
 ### Empty Message
 ![Empty Message](src/Screenshots/Message.png)
